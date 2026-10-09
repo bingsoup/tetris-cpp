@@ -1,7 +1,7 @@
 {
   "name": "C++ GUI",
 
-  "image": "mcr.microsoft.com/devcontainers/cpp:ubuntu.24.04",
+  "image": "mcr.microsoft.com/devcontainers/cpp:noble",
 
   "features": {
       "ghcr.io/devcontainers/features/desktop-lite:1": {
