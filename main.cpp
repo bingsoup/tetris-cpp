@@ -12,16 +12,16 @@ using std::vector;
 
 // Window
 const int SDL_ORIGIN_WIDTH = 1000;
-const int SDL_ORIGIN_HEIGHT = 1000;
+const int SDL_ORIGIN_HEIGHT = 560;
 const int TARGET_FPS = 60;
 
 // Grid
-const float GRID_HEIGHT = 800.0f;
-const float GRID_WIDTH = 400.0f;
+const float GRID_HEIGHT = 560.0f;
+const float GRID_WIDTH = 280.0f;
 const int GRID_ROWS = 20;
 const int GRID_COLS = 10;
-const float GRID_CELL_WIDTH = 40.0f;
-const float GRID_CELL_HEIGHT = 40.0f;
+const float GRID_CELL_WIDTH = 28.0f;
+const float GRID_CELL_HEIGHT = 28.0f;
 
 // Upcoming
 const float UPCOMING_WIDTH = (6 * GRID_CELL_WIDTH + 1.0f);
@@ -70,6 +70,8 @@ struct SDLApplication
         if (!mWindow){
             throw SDLException("Window Creation Failed");
         }
+
+        SDL_SetWindowPosition(mWindow, SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED);
 
         mSurface = SDL_LoadBMP("assets/tetris.bmp");
         if (!mSurface){
@@ -373,7 +375,7 @@ struct SDLApplication
         }
 
         // Score
-        TTF_SetFontSize(mRenderFont, 30.0f);
+        TTF_SetFontSize(mRenderFont, 20.0f);
         renderString = "Score: " + std::to_string(mGame.Score);
         TTF_Text *scoreText = 
             TTF_CreateText(
@@ -392,7 +394,7 @@ struct SDLApplication
         }
 
         // Level
-        TTF_SetFontSize(mRenderFont, 30.0f);
+        TTF_SetFontSize(mRenderFont, 20.0f);
         renderString = "Level: " + std::to_string(mGame.Level);
         TTF_Text *levelText = 
             TTF_CreateText(
