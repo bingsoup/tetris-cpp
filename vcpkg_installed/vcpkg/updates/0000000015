@@ -1,0 +1,8 @@
+Package: vcpkg-make
+Version: 2026-07-09
+Port-Version: 1
+Depends: vcpkg-cmake-get-vars
+Architecture: x64-linux
+Multi-Arch: same
+Abi: 8097f6ea4b95a69c1d59c6a620ecd4a18d1bad56f78d31a6f0208e8a75a34457
+Status: install ok installed
