@@ -20,4 +20,4 @@ RUN apt-get update && apt-get install -y \
     libegl1-mesa-dev \
     libdbus-1-dev \
     libudev-dev \
-    && rm -rf /var/lib/apt/lists/*
+    && rm -rf /var/lib/apt/lists/
