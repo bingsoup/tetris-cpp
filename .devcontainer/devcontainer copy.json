@@ -1,9 +1,7 @@
 {
-  "name": "Tetris C++",
+  "name": "C++ GUI",
 
-  "build": {
-    "dockerfile": "Dockerfile"
-  },
+  "image": "mcr.microsoft.com/devcontainers/cpp:noble",
 
   "features": {
       "ghcr.io/devcontainers/features/desktop-lite:1": {
@@ -19,13 +17,6 @@
           "label": "GUI Desktop"
       }
   },
-
-  "containerEnv":{
-    "DISPLAY": ":1",
-    "VCPKG_BINARY_SOURCES": "clear"
-  },
-
-  "postCreateCommand": "vcpkg install --binarysource=clear && cmake -S . -B build -DCMAKE_TOOLCHAIN_FILE=$VCPKG_ROOT/scripts/buildsystems/vcpkg.cmake",
 
   "customizations": {
     "vscode": {
