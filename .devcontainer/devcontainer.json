@@ -1,0 +1,33 @@
+{
+  "name": "C++ GUI",
+
+  "image": "mcr.microsoft.com/devcontainers/cpp:1-ubuntu.24.04",
+
+  "features": {
+      "ghcr.io/devcontainers/features/desktop-lite:1": {
+          "password": "vscode",
+          "webPort": "6080",
+          "vncPort": "5901"
+      }
+  },
+  "forwardPorts": [6080],
+
+  "portsAttributes": {
+      "6080": {
+          "label": "GUI Desktop"
+      }
+  },
+
+  "runArgs": [
+    "--shm-size=1g"
+    ],
+
+  "customizations": {
+    "vscode": {
+        "extensions": [
+          "ms-vscode.cpptools",
+          "ms-vscode.cmake-tools"
+        ]
+    }
+  }
+}
