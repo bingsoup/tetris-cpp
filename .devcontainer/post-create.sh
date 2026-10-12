@@ -16,8 +16,7 @@ vcpkg install \
 
 echo "checking SDL3"
 
-find "$PWD/vcpkg_installed" -name
-"SDL3Config.cmake" -print
+find "$PWD/vcpkg_installed" -type f -name "SDL3Config.cmake" -print
 
 echo "Configuring"
 
