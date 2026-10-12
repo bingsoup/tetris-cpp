@@ -1,18 +1,21 @@
 #!/usr/bin/env bash
-
 set -euo pipefail
 
 cd /workspaces/tetris-cpp
 
-echo "Configuring tetris"
+echo "Configuring Tetris..."
 
-rm -rf build
+rm -rf build-test
 
-VCPKG_BINARY_SOURCES=clea cmake \
-    -S . \
-    -B build \
-    -G Ninja \
+cmake \
+  -S . \
+  -B build-test \
+  -G Ninja \
+  -DCMAKE_TOOLCHAIN_FILE=/usr/local/vcpkg/scripts/buildsystems/vcpkg.cmake \
+  -DVCPKG_MANIFEST_MODE=ON
 
--DCMAKE_TOOLCHAIN_FILE="$VCPKG_ROOT/scripts/buildsystems/vcpkg.cmake" 
+echo "Building Tetris..."
 
-echo "CMake configured"
+cmake --build build-test
+
+echo "Setup complete."

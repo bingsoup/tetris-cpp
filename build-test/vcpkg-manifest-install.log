@@ -1,0 +1,513 @@
+Detecting compiler hash for triplet x64-linux...
+Compiler found: /usr/bin/c++
+The following packages will be built and installed:
+  * brotli:x64-linux@1.2.0
+  * bzip2[core,tool]:x64-linux@1.0.8#6
+  * dbus[core,systemd]:x64-linux@1.16.2#5
+  * expat:x64-linux@2.8.5
+  * freetype[brotli,bzip2,core,png,zlib]:x64-linux@2.14.3
+  * gperf:x64-linux@3.3#1
+  * libcap:x64-linux@2.78
+  * liblzma:x64-linux@5.8.4
+  * libmount:x64-linux@2.41.3#1
+  * libpng:x64-linux@1.6.59
+  * libsystemd:x64-linux@260.2#1
+  * libxcrypt:x64-linux@4.5.2
+  * lz4:x64-linux@1.10.0
+    sdl3[core,dbus,ibus,wayland,x11]:x64-linux@3.4.18
+    sdl3-ttf:x64-linux@3.2.2#1
+  * vcpkg-cmake:x64-linux@2025-08-07
+  * vcpkg-cmake-config:x64-linux@2026-07-21
+  * vcpkg-cmake-get-vars:x64-linux@2025-05-29
+  * vcpkg-get-python-packages:x64-linux@2025-04-05
+  * vcpkg-make:x64-linux@2026-07-09#1
+  * vcpkg-tool-meson:x64-linux@1.9.0#10
+  * zlib:x64-linux@1.3.2#2
+  * zstd:x64-linux@1.5.7
+Additional packages (*) will be modified to complete this operation.
+Installing 1/23 vcpkg-cmake-config:x64-linux@2026-07-21...
+vcpkg-cmake-config:x64-linux@2026-07-21 package ABI: 0ee42e39da7599e8cb10c5b061dd3ace75d6268e2abc1717f7f6f76380507296
+Building vcpkg-cmake-config:x64-linux@2026-07-21...
+-- Installing: /usr/local/vcpkg/packages/vcpkg-cmake-config_x64-linux/share/vcpkg-cmake-config/vcpkg_cmake_config_fixup.cmake
+-- Installing: /usr/local/vcpkg/packages/vcpkg-cmake-config_x64-linux/share/vcpkg-cmake-config/vcpkg-port-config.cmake
+-- Installing: /usr/local/vcpkg/packages/vcpkg-cmake-config_x64-linux/share/vcpkg-cmake-config/copyright
+-- Skipping post-build validation due to VCPKG_POLICY_EMPTY_PACKAGE
+Elapsed time to handle vcpkg-cmake-config:x64-linux: 21 ms
+Installing 2/23 vcpkg-cmake:x64-linux@2025-08-07...
+vcpkg-cmake:x64-linux@2025-08-07 package ABI: 3610dd5d1ab14314f7ac023eae5ed636c66dae10363e1184803b09ee579756f5
+Building vcpkg-cmake:x64-linux@2025-08-07...
+-- Installing: /usr/local/vcpkg/packages/vcpkg-cmake_x64-linux/share/vcpkg-cmake/vcpkg_cmake_configure.cmake
+-- Installing: /usr/local/vcpkg/packages/vcpkg-cmake_x64-linux/share/vcpkg-cmake/vcpkg_cmake_build.cmake
+-- Installing: /usr/local/vcpkg/packages/vcpkg-cmake_x64-linux/share/vcpkg-cmake/vcpkg_cmake_install.cmake
+-- Installing: /usr/local/vcpkg/packages/vcpkg-cmake_x64-linux/share/vcpkg-cmake/vcpkg-port-config.cmake
+-- Installing: /usr/local/vcpkg/packages/vcpkg-cmake_x64-linux/share/vcpkg-cmake/copyright
+-- Performing post-build validation
+Elapsed time to handle vcpkg-cmake:x64-linux: 25.9 ms
+Installing 3/23 zstd:x64-linux@1.5.7...
+zstd:x64-linux@1.5.7 package ABI: 90f7ed42a6a123fd3969b2d975a192582e45150a5c3b59063226cc452f716dcd
+Building zstd:x64-linux@1.5.7...
+-- Using cached facebook-zstd-v1.5.7.tar.gz
+-- Cleaning sources at /usr/local/vcpkg/buildtrees/zstd/src/v1.5.7-bb6cae2b2e.clean. Use --editable to skip cleaning for the packages you specify.
+-- Extracting source /usr/local/vcpkg-downloads/facebook-zstd-v1.5.7.tar.gz
+-- Applying patch no-static-suffix.patch
+-- Applying patch fix-emscripten-and-clang-cl.patch
+-- Applying patch fix-windows-rc-compile.patch
+-- Using source at /usr/local/vcpkg/buildtrees/zstd/src/v1.5.7-bb6cae2b2e.clean
+-- Configuring x64-linux
+-- Building x64-linux-dbg
+-- Building x64-linux-rel
+-- Fixing pkgconfig file: /usr/local/vcpkg/packages/zstd_x64-linux/lib/pkgconfig/libzstd.pc
+-- Fixing pkgconfig file: /usr/local/vcpkg/packages/zstd_x64-linux/debug/lib/pkgconfig/libzstd.pc
+-- Installing: /usr/local/vcpkg/packages/zstd_x64-linux/share/zstd/usage
+-- Performing post-build validation
+Elapsed time to handle zstd:x64-linux: 47 s
+Installing 4/23 vcpkg-cmake-get-vars:x64-linux@2025-05-29...
+vcpkg-cmake-get-vars:x64-linux@2025-05-29 package ABI: aa30ec0d2cf90d0a881d86a0acc70abf9d4fb01dedecc1ac62312fcc5b2239b8
+Building vcpkg-cmake-get-vars:x64-linux@2025-05-29...
+-- Installing: /usr/local/vcpkg/packages/vcpkg-cmake-get-vars_x64-linux/share/vcpkg-cmake-get-vars/vcpkg_cmake_get_vars.cmake
+-- Installing: /usr/local/vcpkg/packages/vcpkg-cmake-get-vars_x64-linux/share/vcpkg-cmake-get-vars/cmake_get_vars
+-- Installing: /usr/local/vcpkg/packages/vcpkg-cmake-get-vars_x64-linux/share/vcpkg-cmake-get-vars/cmake_get_vars/CMakeLists.txt
+-- Installing: /usr/local/vcpkg/packages/vcpkg-cmake-get-vars_x64-linux/share/vcpkg-cmake-get-vars/cmake-get-vars.cmake.in
+-- Installing: /usr/local/vcpkg/packages/vcpkg-cmake-get-vars_x64-linux/share/vcpkg-cmake-get-vars/vcpkg-port-config.cmake
+-- Installing: /usr/local/vcpkg/packages/vcpkg-cmake-get-vars_x64-linux/share/vcpkg-cmake-get-vars/copyright
+-- Performing post-build validation
+Elapsed time to handle vcpkg-cmake-get-vars:x64-linux: 28.7 ms
+Installing 5/23 vcpkg-tool-meson:x64-linux@1.9.0#10...
+vcpkg-tool-meson:x64-linux@1.9.0#10 package ABI: 3fcc35dee46afee8a7822d230ee2a2b95f80bdcf745104b8218b3d95a1fbc98a
+Building vcpkg-tool-meson:x64-linux@1.9.0#10...
+-- Installing: /usr/local/vcpkg/packages/vcpkg-tool-meson_x64-linux/share/vcpkg-tool-meson/copyright
+-- Found Python version '3.12.3 at /usr/bin/python3'
+-- Using meson: /usr/local/vcpkg-downloads/tools/meson-1.9.0-633807/meson.py
+-- Performing post-build validation
+Elapsed time to handle vcpkg-tool-meson:x64-linux: 64.6 ms
+Installing 6/23 vcpkg-get-python-packages:x64-linux@2025-04-05...
+vcpkg-get-python-packages:x64-linux@2025-04-05 package ABI: bf2887bd83b9a8a7297cd85cdaf89e73067a94909fc2cb2b219a696644d99925
+Building vcpkg-get-python-packages:x64-linux@2025-04-05...
+-- Skipping post-build validation due to VCPKG_POLICY_EMPTY_PACKAGE
+Elapsed time to handle vcpkg-get-python-packages:x64-linux: 69 ms
+Installing 7/23 lz4:x64-linux@1.10.0...
+lz4:x64-linux@1.10.0 package ABI: 3060648de33d28af532349d3df5a4e2d50818f00d95d5094a90426ad656a9d84
+Building lz4:x64-linux@1.10.0...
+-- Using cached lz4-lz4-v1.10.0.tar.gz
+-- Cleaning sources at /usr/local/vcpkg/buildtrees/lz4/src/v1.10.0-61bd08d80e.clean. Use --editable to skip cleaning for the packages you specify.
+-- Extracting source /usr/local/vcpkg-downloads/lz4-lz4-v1.10.0.tar.gz
+-- Applying patch target-lz4-lz4.diff
+-- Using source at /usr/local/vcpkg/buildtrees/lz4/src/v1.10.0-61bd08d80e.clean
+-- Configuring x64-linux
+-- Building x64-linux-dbg
+-- Building x64-linux-rel
+-- Fixing pkgconfig file: /usr/local/vcpkg/packages/lz4_x64-linux/lib/pkgconfig/liblz4.pc
+-- Fixing pkgconfig file: /usr/local/vcpkg/packages/lz4_x64-linux/debug/lib/pkgconfig/liblz4.pc
+-- Installing: /usr/local/vcpkg/packages/lz4_x64-linux/share/lz4/usage
+-- Installing: /usr/local/vcpkg/packages/lz4_x64-linux/share/lz4/copyright
+-- Performing post-build validation
+Elapsed time to handle lz4:x64-linux: 9.8 s
+Installing 8/23 vcpkg-make:x64-linux@2026-07-09#1...
+vcpkg-make:x64-linux@2026-07-09#1 package ABI: 8097f6ea4b95a69c1d59c6a620ecd4a18d1bad56f78d31a6f0208e8a75a34457
+Building vcpkg-make:x64-linux@2026-07-09#1...
+-- Using cached automake-1.17.tar.gz
+-- Cleaning sources at /usr/local/vcpkg/buildtrees/vcpkg-make/src/automake-1-c362683103.clean. Use --editable to skip cleaning for the packages you specify.
+-- Extracting source /usr/local/vcpkg-downloads/automake-1.17.tar.gz
+-- Using source at /usr/local/vcpkg/buildtrees/vcpkg-make/src/automake-1-c362683103.clean
+-- Getting CMake variables for x64-linux
+-- Loading CMake variables from /usr/local/vcpkg/buildtrees/vcpkg-make/cmake-get-vars_C_CXX-x64-linux.cmake.log
+-- x64-linux autotools triplet: x86_64-pc-linux-gnu (from config.guess)
+-- Performing post-build validation
+Elapsed time to handle vcpkg-make:x64-linux: 1.3 s
+Installing 9/23 libxcrypt:x64-linux@4.5.2...
+libxcrypt:x64-linux@4.5.2 package ABI: 9dad75a30fa3b15cdba5100282a6e032e5a5a483d84720dde31f847a9cdcd0de
+Building libxcrypt:x64-linux@4.5.2...
+-- Using cached besser82-libxcrypt-v4.5.2.tar.gz
+-- Cleaning sources at /usr/local/vcpkg/buildtrees/libxcrypt/src/v4.5.2-7ca15a2a8e.clean. Use --editable to skip cleaning for the packages you specify.
+-- Extracting source /usr/local/vcpkg-downloads/besser82-libxcrypt-v4.5.2.tar.gz
+-- Using source at /usr/local/vcpkg/buildtrees/libxcrypt/src/v4.5.2-7ca15a2a8e.clean
+-- Getting CMake variables for x64-linux
+-- Loading CMake variables from /usr/local/vcpkg/buildtrees/libxcrypt/cmake-get-vars_C_CXX-x64-linux.cmake.log
+-- Generating configure for x64-linux
+-- Finished generating configure for x64-linux
+-- Configuring x64-linux-dbg
+-- Configuring x64-linux-rel
+-- Building/Installing x64-linux-dbg
+-- Making target 'all' for x64-linux-dbg
+-- Making target 'install' for x64-linux-dbg
+-- Building/Installing x64-linux-rel
+-- Making target 'all' for x64-linux-rel
+-- Making target 'install' for x64-linux-rel
+-- Fixing pkgconfig file: /usr/local/vcpkg/packages/libxcrypt_x64-linux/lib/pkgconfig/libcrypt.pc
+-- Fixing pkgconfig file: /usr/local/vcpkg/packages/libxcrypt_x64-linux/lib/pkgconfig/libxcrypt.pc
+-- Fixing pkgconfig file: /usr/local/vcpkg/packages/libxcrypt_x64-linux/debug/lib/pkgconfig/libcrypt.pc
+-- Fixing pkgconfig file: /usr/local/vcpkg/packages/libxcrypt_x64-linux/debug/lib/pkgconfig/libxcrypt.pc
+-- Performing post-build validation
+Elapsed time to handle libxcrypt:x64-linux: 30 s
+Installing 10/23 libmount:x64-linux@2.41.3#1...
+libmount:x64-linux@2.41.3#1 package ABI: 41c644255af8ee33ce6c3c4db9ff50cd92316f16f01ddcaf984785e0825d9b0e
+Building libmount:x64-linux@2.41.3#1...
+-- Using cached util-linux-2.41.3.tar.xz
+-- Cleaning sources at /usr/local/vcpkg/buildtrees/libmount/src/2.41.3-53757992c3.clean. Use --editable to skip cleaning for the packages you specify.
+-- Extracting source /usr/local/vcpkg-downloads/util-linux-2.41.3.tar.xz
+-- Applying patch hide-private-symbols.diff
+-- Using source at /usr/local/vcpkg/buildtrees/libmount/src/2.41.3-53757992c3.clean
+-- Getting CMake variables for x64-linux
+-- Loading CMake variables from /usr/local/vcpkg/buildtrees/libmount/cmake-get-vars_C_CXX-x64-linux.cmake.log
+-- Generating configure for x64-linux
+-- Finished generating configure for x64-linux
+-- Configuring x64-linux-dbg
+-- Configuring x64-linux-rel
+-- Building/Installing x64-linux-dbg
+-- Making target 'all' for x64-linux-dbg
+-- Making target 'install' for x64-linux-dbg
+-- Building/Installing x64-linux-rel
+-- Making target 'all' for x64-linux-rel
+-- Making target 'install' for x64-linux-rel
+-- Fixing pkgconfig file: /usr/local/vcpkg/packages/libmount_x64-linux/lib/pkgconfig/blkid.pc
+-- Fixing pkgconfig file: /usr/local/vcpkg/packages/libmount_x64-linux/lib/pkgconfig/mount.pc
+-- Fixing pkgconfig file: /usr/local/vcpkg/packages/libmount_x64-linux/debug/lib/pkgconfig/blkid.pc
+-- Fixing pkgconfig file: /usr/local/vcpkg/packages/libmount_x64-linux/debug/lib/pkgconfig/mount.pc
+-- Performing post-build validation
+Elapsed time to handle libmount:x64-linux: 1.4 min
+Installing 11/23 liblzma:x64-linux@5.8.4...
+liblzma:x64-linux@5.8.4 package ABI: d964d80e1a1d72214028ac6da025779395be7cf07cf23de873fb339e2a175a93
+Building liblzma:x64-linux@5.8.4...
+-- Using cached tukaani-project-xz-v5.8.4.tar.gz
+-- Cleaning sources at /usr/local/vcpkg/buildtrees/liblzma/src/v5.8.4-19a8d00df7.clean. Use --editable to skip cleaning for the packages you specify.
+-- Extracting source /usr/local/vcpkg-downloads/tukaani-project-xz-v5.8.4.tar.gz
+-- Applying patch build-tools.patch
+-- Using source at /usr/local/vcpkg/buildtrees/liblzma/src/v5.8.4-19a8d00df7.clean
+-- Configuring x64-linux
+-- Building x64-linux-dbg
+-- Building x64-linux-rel
+-- Fixing pkgconfig file: /usr/local/vcpkg/packages/liblzma_x64-linux/lib/pkgconfig/liblzma.pc
+-- Fixing pkgconfig file: /usr/local/vcpkg/packages/liblzma_x64-linux/debug/lib/pkgconfig/liblzma.pc
+-- Installing: /usr/local/vcpkg/packages/liblzma_x64-linux/share/liblzma/copyright
+-- Performing post-build validation
+Elapsed time to handle liblzma:x64-linux: 22 s
+Installing 12/23 libcap:x64-linux@2.78...
+libcap:x64-linux@2.78 package ABI: b2df293ee1b82cf41fd9472527de70510c0f054a30ede3f801236a93081f7ec5
+Building libcap:x64-linux@2.78...
+-- Using cached libcap-2.78.tar.xz
+-- Cleaning sources at /usr/local/vcpkg/buildtrees/libcap/src/libcap-2-a77fee36a9.clean. Use --editable to skip cleaning for the packages you specify.
+-- Extracting source /usr/local/vcpkg-downloads/libcap-2.78.tar.xz
+-- Using source at /usr/local/vcpkg/buildtrees/libcap/src/libcap-2-a77fee36a9.clean
+-- Getting CMake variables for x64-linux
+-- Loading CMake variables from /usr/local/vcpkg/buildtrees/libcap/cmake-get-vars_C_CXX-x64-linux.cmake.log
+-- Configuring x64-linux-dbg
+-- Configuring x64-linux-rel
+-- Building/Installing x64-linux-dbg
+-- Making target 'all' for x64-linux-dbg
+-- Making target 'install' for x64-linux-dbg
+-- Building/Installing x64-linux-rel
+-- Making target 'all' for x64-linux-rel
+-- Making target 'install' for x64-linux-rel
+-- Fixing pkgconfig file: /usr/local/vcpkg/packages/libcap_x64-linux/lib/pkgconfig/libcap.pc
+-- Fixing pkgconfig file: /usr/local/vcpkg/packages/libcap_x64-linux/lib/pkgconfig/libpsx.pc
+-- Fixing pkgconfig file: /usr/local/vcpkg/packages/libcap_x64-linux/debug/lib/pkgconfig/libcap.pc
+-- Fixing pkgconfig file: /usr/local/vcpkg/packages/libcap_x64-linux/debug/lib/pkgconfig/libpsx.pc
+-- Installing: /usr/local/vcpkg/packages/libcap_x64-linux/share/libcap/copyright
+-- Performing post-build validation
+Elapsed time to handle libcap:x64-linux: 3.7 s
+Installing 13/23 gperf:x64-linux@3.3#1...
+gperf:x64-linux@3.3#1 package ABI: 5a9d0fc1f5570b46df85d27497e3d8e22fe17764495924236f8473490747817b
+Building gperf:x64-linux@3.3#1...
+-- Using cached gperf-3.3.tar.gz
+-- Cleaning sources at /usr/local/vcpkg/buildtrees/gperf/src/gperf-3-b814f52c10.clean. Use --editable to skip cleaning for the packages you specify.
+-- Extracting source /usr/local/vcpkg-downloads/gperf-3.3.tar.gz
+-- Using source at /usr/local/vcpkg/buildtrees/gperf/src/gperf-3-b814f52c10.clean
+-- Getting CMake variables for x64-linux
+-- Loading CMake variables from /usr/local/vcpkg/buildtrees/gperf/cmake-get-vars_C_CXX-x64-linux.cmake.log
+-- Generating configure for x64-linux
+-- Finished generating configure for x64-linux
+-- Configuring x64-linux-rel
+-- Building/Installing x64-linux-rel
+-- Making target 'all' for x64-linux-rel
+-- Making target 'install' for x64-linux-rel
+-- Installing: /usr/local/vcpkg/packages/gperf_x64-linux/share/gperf/copyright
+-- Adjusted RPATH of '/usr/local/vcpkg/packages/gperf_x64-linux/tools/gperf/gperf' (From '' -> To '$ORIGIN:$ORIGIN/../../lib')
+-- Performing post-build validation
+Elapsed time to handle gperf:x64-linux: 25 s
+Installing 14/23 libsystemd:x64-linux@260.2#1...
+libsystemd:x64-linux@260.2#1 package ABI: 27f7fb7f9dbcb6e6021405f104a2bd62249b2062d409fe16230a07901de23d7d
+Building libsystemd:x64-linux@260.2#1...
+-- Found Python version '3.12.3 at /usr/bin/python3'
+-- Using meson: /usr/local/vcpkg-downloads/tools/meson-1.9.0-633807/meson.py
+-- Using cached systemd-systemd-v260.2.tar.gz
+-- Cleaning sources at /usr/local/vcpkg/buildtrees/libsystemd/src/v260.2-1a875e5b45.clean. Use --editable to skip cleaning for the packages you specify.
+-- Extracting source /usr/local/vcpkg-downloads/systemd-systemd-v260.2.tar.gz
+-- Applying patch disable-warning-nonnull.patch
+-- Applying patch only-libsystemd.patch
+-- Applying patch pkgconfig.patch
+-- Applying patch fix-2604-build.patch
+-- Using source at /usr/local/vcpkg/buildtrees/libsystemd/src/v260.2-1a875e5b45.clean
+-- Setting up python virtual environment...
+-- Installing python packages: jinja2
+-- Setting up python virtual environment... finished.
+-- Configuring x64-linux-dbg
+-- Getting CMake variables for x64-linux
+-- Loading CMake variables from /usr/local/vcpkg/buildtrees/libsystemd/cmake-get-vars_C_CXX-x64-linux.cmake.log
+-- Configuring x64-linux-dbg done
+-- Configuring x64-linux-rel
+-- Configuring x64-linux-rel done
+-- Package x64-linux-dbg
+-- Package x64-linux-rel
+-- Fixing pkgconfig file: /usr/local/vcpkg/packages/libsystemd_x64-linux/lib/pkgconfig/libsystemd.pc
+-- Fixing pkgconfig file: /usr/local/vcpkg/packages/libsystemd_x64-linux/debug/lib/pkgconfig/libsystemd.pc
+-- Performing post-build validation
+Elapsed time to handle libsystemd:x64-linux: 1.2 min
+Installing 15/23 expat:x64-linux@2.8.5...
+expat:x64-linux@2.8.5 package ABI: 7ea48409b7b6decb845e5b397fed2f9e7553d221bd9a634e511eadebf22dc240
+Building expat:x64-linux@2.8.5...
+-- Using cached libexpat-libexpat-R_2_8_5.tar.gz
+-- Cleaning sources at /usr/local/vcpkg/buildtrees/expat/src/R_2_8_5-cbe542dc0e.clean. Use --editable to skip cleaning for the packages you specify.
+-- Extracting source /usr/local/vcpkg-downloads/libexpat-libexpat-R_2_8_5.tar.gz
+-- Using source at /usr/local/vcpkg/buildtrees/expat/src/R_2_8_5-cbe542dc0e.clean
+-- Configuring x64-linux
+-- Building x64-linux-dbg
+-- Building x64-linux-rel
+-- Fixing pkgconfig file: /usr/local/vcpkg/packages/expat_x64-linux/lib/pkgconfig/expat.pc
+-- Fixing pkgconfig file: /usr/local/vcpkg/packages/expat_x64-linux/debug/lib/pkgconfig/expat.pc
+-- Performing post-build validation
+Elapsed time to handle expat:x64-linux: 8.9 s
+Installing 16/23 dbus[core,systemd]:x64-linux@1.16.2#5...
+dbus[core,systemd]:x64-linux@1.16.2#5 package ABI: 7e1bccf72c55d5b284f1aa80855b9931d2260dc33bc990203b3a597a69b61f76
+Building dbus[core,systemd]:x64-linux@1.16.2#5...
+-- Note: dbus only supports dynamic library linkage. Building dynamic library.
+-- Using cached dbus-dbus-dbus-1.16.2.tar.gz
+-- Cleaning sources at /usr/local/vcpkg/buildtrees/dbus/src/bus-1.16.2-1cbfa372b6.clean. Use --editable to skip cleaning for the packages you specify.
+-- Extracting source /usr/local/vcpkg-downloads/dbus-dbus-dbus-1.16.2.tar.gz
+-- Applying patch cmake.dep.patch
+-- Applying patch pkgconfig.patch
+-- Applying patch getpeereid.patch
+-- Applying patch libsystemd.patch
+-- Applying patch remove-path.patch
+-- Applying patch remove-var-lib-dbus-creation.patch
+-- Applying patch session-socket-dir.diff
+-- Using source at /usr/local/vcpkg/buildtrees/dbus/src/bus-1.16.2-1cbfa372b6.clean
+-- Configuring x64-linux
+-- Building x64-linux-dbg
+-- Building x64-linux-rel
+-- Fixing pkgconfig file: /usr/local/vcpkg/packages/dbus_x64-linux/lib/pkgconfig/dbus-1.pc
+-- Fixing pkgconfig file: /usr/local/vcpkg/packages/dbus_x64-linux/debug/lib/pkgconfig/dbus-1.pc
+-- Installing: /usr/local/vcpkg/packages/dbus_x64-linux/share/dbus/copyright
+-- Adjusted RPATH of '/usr/local/vcpkg/packages/dbus_x64-linux/debug/lib/libdbus-1.so.3.38.3' (From '' -> To '$ORIGIN')
+-- Adjusted RPATH of '/usr/local/vcpkg/packages/dbus_x64-linux/debug/libexec/dbus-daemon-launch-helper' (From '' -> To '$ORIGIN:$ORIGIN/../lib')
+-- Adjusted RPATH of '/usr/local/vcpkg/packages/dbus_x64-linux/debug/tools/dbus/dbus-cleanup-sockets' (From '' -> To '$ORIGIN:$ORIGIN/../../lib')
+-- Adjusted RPATH of '/usr/local/vcpkg/packages/dbus_x64-linux/debug/tools/dbus/dbus-daemon' (From '' -> To '$ORIGIN:$ORIGIN/../../lib')
+-- Adjusted RPATH of '/usr/local/vcpkg/packages/dbus_x64-linux/debug/tools/dbus/dbus-launch' (From '' -> To '$ORIGIN:$ORIGIN/../../lib')
+-- Adjusted RPATH of '/usr/local/vcpkg/packages/dbus_x64-linux/debug/tools/dbus/dbus-monitor' (From '' -> To '$ORIGIN:$ORIGIN/../../lib')
+-- Adjusted RPATH of '/usr/local/vcpkg/packages/dbus_x64-linux/debug/tools/dbus/dbus-run-session' (From '' -> To '$ORIGIN:$ORIGIN/../../lib')
+-- Adjusted RPATH of '/usr/local/vcpkg/packages/dbus_x64-linux/debug/tools/dbus/dbus-send' (From '' -> To '$ORIGIN:$ORIGIN/../../lib')
+-- Adjusted RPATH of '/usr/local/vcpkg/packages/dbus_x64-linux/debug/tools/dbus/dbus-test-tool' (From '' -> To '$ORIGIN:$ORIGIN/../../lib')
+-- Adjusted RPATH of '/usr/local/vcpkg/packages/dbus_x64-linux/debug/tools/dbus/dbus-update-activation-environment' (From '' -> To '$ORIGIN:$ORIGIN/../../lib')
+-- Adjusted RPATH of '/usr/local/vcpkg/packages/dbus_x64-linux/debug/tools/dbus/dbus-uuidgen' (From '' -> To '$ORIGIN:$ORIGIN/../../lib')
+-- Adjusted RPATH of '/usr/local/vcpkg/packages/dbus_x64-linux/lib/libdbus-1.so.3.38.3' (From '' -> To '$ORIGIN')
+-- Adjusted RPATH of '/usr/local/vcpkg/packages/dbus_x64-linux/libexec/dbus-daemon-launch-helper' (From '' -> To '$ORIGIN:$ORIGIN/../lib')
+-- Adjusted RPATH of '/usr/local/vcpkg/packages/dbus_x64-linux/tools/dbus/dbus-cleanup-sockets' (From '' -> To '$ORIGIN:$ORIGIN/../../lib')
+-- Adjusted RPATH of '/usr/local/vcpkg/packages/dbus_x64-linux/tools/dbus/dbus-daemon' (From '' -> To '$ORIGIN:$ORIGIN/../../lib')
+-- Adjusted RPATH of '/usr/local/vcpkg/packages/dbus_x64-linux/tools/dbus/dbus-launch' (From '' -> To '$ORIGIN:$ORIGIN/../../lib')
+-- Adjusted RPATH of '/usr/local/vcpkg/packages/dbus_x64-linux/tools/dbus/dbus-monitor' (From '' -> To '$ORIGIN:$ORIGIN/../../lib')
+-- Adjusted RPATH of '/usr/local/vcpkg/packages/dbus_x64-linux/tools/dbus/dbus-run-session' (From '' -> To '$ORIGIN:$ORIGIN/../../lib')
+-- Adjusted RPATH of '/usr/local/vcpkg/packages/dbus_x64-linux/tools/dbus/dbus-send' (From '' -> To '$ORIGIN:$ORIGIN/../../lib')
+-- Adjusted RPATH of '/usr/local/vcpkg/packages/dbus_x64-linux/tools/dbus/dbus-test-tool' (From '' -> To '$ORIGIN:$ORIGIN/../../lib')
+-- Adjusted RPATH of '/usr/local/vcpkg/packages/dbus_x64-linux/tools/dbus/dbus-update-activation-environment' (From '' -> To '$ORIGIN:$ORIGIN/../../lib')
+-- Adjusted RPATH of '/usr/local/vcpkg/packages/dbus_x64-linux/tools/dbus/dbus-uuidgen' (From '' -> To '$ORIGIN:$ORIGIN/../../lib')
+-- Performing post-build validation
+Elapsed time to handle dbus:x64-linux: 37 s
+Installing 17/23 sdl3[core,dbus,ibus,wayland,x11]:x64-linux@3.4.18...
+sdl3[core,dbus,ibus,wayland,x11]:x64-linux@3.4.18 package ABI: 2e08b2ad648540cf63714e2f15d3c5589ec10b7d312c6f5a48babb0c7053a63c
+Building sdl3[core,dbus,ibus,wayland,x11]:x64-linux@3.4.18...
+-- Using cached libsdl-org-SDL-release-3.4.18.tar.gz
+-- Cleaning sources at /usr/local/vcpkg/buildtrees/sdl3/src/ase-3.4.18-1355498e5d.clean. Use --editable to skip cleaning for the packages you specify.
+-- Extracting source /usr/local/vcpkg-downloads/libsdl-org-SDL-release-3.4.18.tar.gz
+-- Applying patch fix-freebsd.patch
+-- Using source at /usr/local/vcpkg/buildtrees/sdl3/src/ase-3.4.18-1355498e5d.clean
+CMake Warning at ports/sdl3/portfile.cmake:42 (message):
+  You will need to install Xorg dependencies to use feature x11:
+
+  sudo apt install libx11-dev libxft-dev libxext-dev
+
+Call Stack (most recent call first):
+  scripts/ports.cmake:209 (include)
+
+
+CMake Warning at ports/sdl3/portfile.cmake:45 (message):
+  You will need to install Wayland dependencies to use feature wayland:
+
+  sudo apt install libwayland-dev libxkbcommon-dev libegl1-mesa-dev
+
+Call Stack (most recent call first):
+  scripts/ports.cmake:209 (include)
+
+
+CMake Warning at ports/sdl3/portfile.cmake:48 (message):
+  You will need to install ibus dependencies to use feature ibus:
+
+  sudo apt install libibus-1.0-dev
+
+Call Stack (most recent call first):
+  scripts/ports.cmake:209 (include)
+
+
+-- Configuring x64-linux
+CMake Warning at /workspaces/tetris-cpp/build-test/vcpkg_installed/x64-linux/share/vcpkg-cmake/vcpkg_cmake_configure.cmake:346 (message):
+  The following variables are not used in CMakeLists.txt:
+
+      SDL_UNIX_CONSOLE_BUILD
+
+  Please recheck them and remove the unnecessary options from the
+  `vcpkg_cmake_configure` call.
+
+  If these options should still be passed for whatever reason, please use the
+  `MAYBE_UNUSED_VARIABLES` argument.
+Call Stack (most recent call first):
+  ports/sdl3/portfile.cmake:65 (vcpkg_cmake_configure)
+  scripts/ports.cmake:209 (include)
+
+
+-- Building x64-linux-dbg
+-- Building x64-linux-rel
+-- Fixing pkgconfig file: /usr/local/vcpkg/packages/sdl3_x64-linux/lib/pkgconfig/sdl3.pc
+-- Fixing pkgconfig file: /usr/local/vcpkg/packages/sdl3_x64-linux/debug/lib/pkgconfig/sdl3.pc
+-- Installing: /usr/local/vcpkg/packages/sdl3_x64-linux/share/sdl3/usage
+-- Performing post-build validation
+Elapsed time to handle sdl3:x64-linux: 1.9 min
+Installing 18/23 zlib:x64-linux@1.3.2#2...
+zlib:x64-linux@1.3.2#2 package ABI: e5a4437586bac8fbac6298f090c8e00d5e765c575472f1076d2fdcbee43d1d68
+Building zlib:x64-linux@1.3.2#2...
+-- Using cached madler-zlib-v1.3.2.tar.gz
+-- Cleaning sources at /usr/local/vcpkg/buildtrees/zlib/src/v1.3.2-c19a0bfd23.clean. Use --editable to skip cleaning for the packages you specify.
+-- Extracting source /usr/local/vcpkg-downloads/madler-zlib-v1.3.2.tar.gz
+-- Applying patch 0001-no-version-script-on-ohos.patch
+-- Using source at /usr/local/vcpkg/buildtrees/zlib/src/v1.3.2-c19a0bfd23.clean
+-- Configuring x64-linux
+-- Building x64-linux-dbg
+-- Building x64-linux-rel
+-- Fixing pkgconfig file: /usr/local/vcpkg/packages/zlib_x64-linux/lib/pkgconfig/zlib.pc
+-- Fixing pkgconfig file: /usr/local/vcpkg/packages/zlib_x64-linux/debug/lib/pkgconfig/zlib.pc
+-- Installing: /usr/local/vcpkg/packages/zlib_x64-linux/share/zlib/vcpkg-cmake-wrapper.cmake
+-- Installing: /usr/local/vcpkg/packages/zlib_x64-linux/share/zlib/copyright
+-- Performing post-build validation
+Elapsed time to handle zlib:x64-linux: 7.2 s
+Installing 19/23 libpng:x64-linux@1.6.59...
+libpng:x64-linux@1.6.59 package ABI: c53c9834e356360278296a4f12483d15cbf7bba4fda4381fd1d7946ed74f13c7
+Building libpng:x64-linux@1.6.59...
+-- Using cached pnggroup-libpng-v1.6.59.tar.gz
+-- Cleaning sources at /usr/local/vcpkg/buildtrees/libpng/src/v1.6.59-47af3e6fae.clean. Use --editable to skip cleaning for the packages you specify.
+-- Extracting source /usr/local/vcpkg-downloads/pnggroup-libpng-v1.6.59.tar.gz
+-- Applying patch cmake.patch
+-- Using source at /usr/local/vcpkg/buildtrees/libpng/src/v1.6.59-47af3e6fae.clean
+-- Configuring x64-linux
+-- Building x64-linux-dbg
+-- Building x64-linux-rel
+-- Installing: /usr/local/vcpkg/packages/libpng_x64-linux/share/png/vcpkg-cmake-wrapper.cmake
+-- Installing: /usr/local/vcpkg/packages/libpng_x64-linux/share/libpng/libpng-config.cmake
+-- Fixing pkgconfig file: /usr/local/vcpkg/packages/libpng_x64-linux/lib/pkgconfig/libpng16.pc
+-- Fixing pkgconfig file: /usr/local/vcpkg/packages/libpng_x64-linux/debug/lib/pkgconfig/libpng16.pc
+-- Installing: /usr/local/vcpkg/packages/libpng_x64-linux/debug/lib/pkgconfig/libpng.pc
+-- Installing: /usr/local/vcpkg/packages/libpng_x64-linux/lib/pkgconfig/libpng.pc
+-- Installing: /usr/local/vcpkg/packages/libpng_x64-linux/share/libpng/usage
+-- Installing: /usr/local/vcpkg/packages/libpng_x64-linux/share/libpng/copyright
+-- Performing post-build validation
+Elapsed time to handle libpng:x64-linux: 11 s
+Installing 20/23 bzip2[core,tool]:x64-linux@1.0.8#6...
+bzip2[core,tool]:x64-linux@1.0.8#6 package ABI: 2ad41cf7c87fd184d13fca6f881eb6aa3893b44d3e4263acba45ff4bf075859d
+Building bzip2[core,tool]:x64-linux@1.0.8#6...
+-- Using cached bzip2-1.0.8.tar.gz
+-- Cleaning sources at /usr/local/vcpkg/buildtrees/bzip2/src/bzip2-1-336d4794a3.clean. Use --editable to skip cleaning for the packages you specify.
+-- Extracting source /usr/local/vcpkg-downloads/bzip2-1.0.8.tar.gz
+-- Applying patch fix-import-export-macros.patch
+-- Using source at /usr/local/vcpkg/buildtrees/bzip2/src/bzip2-1-336d4794a3.clean
+-- Configuring x64-linux
+-- Building x64-linux-dbg
+-- Building x64-linux-rel
+-- Fixing pkgconfig file: /usr/local/vcpkg/packages/bzip2_x64-linux/lib/pkgconfig/bzip2.pc
+-- Fixing pkgconfig file: /usr/local/vcpkg/packages/bzip2_x64-linux/debug/lib/pkgconfig/bzip2.pc
+-- Installing: /usr/local/vcpkg/packages/bzip2_x64-linux/share/bzip2/copyright
+-- Adjusted RPATH of '/usr/local/vcpkg/packages/bzip2_x64-linux/tools/bzip2/bzip2' (From '' -> To '$ORIGIN:$ORIGIN/../../lib')
+-- Adjusted RPATH of '/usr/local/vcpkg/packages/bzip2_x64-linux/tools/bzip2/bzip2recover' (From '' -> To '$ORIGIN:$ORIGIN/../../lib')
+-- Performing post-build validation
+Elapsed time to handle bzip2:x64-linux: 11 s
+Installing 21/23 brotli:x64-linux@1.2.0...
+brotli:x64-linux@1.2.0 package ABI: 24f94a4175174423841f8221e4863a766124815729cff45bd244d71975fd52ad
+Building brotli:x64-linux@1.2.0...
+-- Using cached google-brotli-v1.2.0.tar.gz
+-- Cleaning sources at /usr/local/vcpkg/buildtrees/brotli/src/v1.2.0-7af7ca71ad.clean. Use --editable to skip cleaning for the packages you specify.
+-- Extracting source /usr/local/vcpkg-downloads/google-brotli-v1.2.0.tar.gz
+-- Applying patch install.patch
+-- Applying patch pkgconfig.patch
+-- Using source at /usr/local/vcpkg/buildtrees/brotli/src/v1.2.0-7af7ca71ad.clean
+-- Configuring x64-linux
+-- Building x64-linux-dbg
+-- Building x64-linux-rel
+-- Fixing pkgconfig file: /usr/local/vcpkg/packages/brotli_x64-linux/lib/pkgconfig/libbrotlicommon.pc
+-- Fixing pkgconfig file: /usr/local/vcpkg/packages/brotli_x64-linux/lib/pkgconfig/libbrotlidec.pc
+-- Fixing pkgconfig file: /usr/local/vcpkg/packages/brotli_x64-linux/lib/pkgconfig/libbrotlienc.pc
+-- Fixing pkgconfig file: /usr/local/vcpkg/packages/brotli_x64-linux/debug/lib/pkgconfig/libbrotlicommon.pc
+-- Fixing pkgconfig file: /usr/local/vcpkg/packages/brotli_x64-linux/debug/lib/pkgconfig/libbrotlidec.pc
+-- Fixing pkgconfig file: /usr/local/vcpkg/packages/brotli_x64-linux/debug/lib/pkgconfig/libbrotlienc.pc
+-- Installing: /usr/local/vcpkg/packages/brotli_x64-linux/share/brotli/usage
+-- Installing: /usr/local/vcpkg/packages/brotli_x64-linux/share/brotli/copyright
+-- Adjusted RPATH of '/usr/local/vcpkg/packages/brotli_x64-linux/tools/brotli/brotli' (From '' -> To '$ORIGIN:$ORIGIN/../../lib')
+-- Performing post-build validation
+Elapsed time to handle brotli:x64-linux: 20 s
+Installing 22/23 freetype[brotli,bzip2,core,png,zlib]:x64-linux@2.14.3...
+freetype[brotli,bzip2,core,png,zlib]:x64-linux@2.14.3 package ABI: 779e32fe9743bfeed4461a3862af93b8a65a245983ab5b249f06e389ce37c6a0
+Building freetype[brotli,bzip2,core,png,zlib]:x64-linux@2.14.3...
+-- Using cached freetype-freetype-VER-2-14-3.tar.gz
+-- Cleaning sources at /usr/local/vcpkg/buildtrees/freetype/src/VER-2-14-3-46d5ca34ec.clean. Use --editable to skip cleaning for the packages you specify.
+-- Extracting source /usr/local/vcpkg-downloads/freetype-freetype-VER-2-14-3.tar.gz
+-- Applying patch 0003-Fix-UWP.patch
+-- Applying patch brotli-static.patch
+-- Applying patch bzip2.patch
+-- Applying patch fix-exports.patch
+-- Using source at /usr/local/vcpkg/buildtrees/freetype/src/VER-2-14-3-46d5ca34ec.clean
+-- Configuring x64-linux
+-- Building x64-linux-dbg
+-- Building x64-linux-rel
+-- Fixing pkgconfig file: /usr/local/vcpkg/packages/freetype_x64-linux/lib/pkgconfig/freetype2.pc
+-- Fixing pkgconfig file: /usr/local/vcpkg/packages/freetype_x64-linux/debug/lib/pkgconfig/freetype2.pc
+-- Installing: /usr/local/vcpkg/packages/freetype_x64-linux/share/freetype/usage
+-- Performing post-build validation
+Elapsed time to handle freetype:x64-linux: 23 s
+Installing 23/23 sdl3-ttf:x64-linux@3.2.2#1...
+sdl3-ttf:x64-linux@3.2.2#1 package ABI: e3e066873aae1e7ea3d7b823b6a231aec11d2ceb4e4d285794ae836b02fd2326
+Building sdl3-ttf:x64-linux@3.2.2#1...
+-- Using cached libsdl-org-SDL_ttf-release-3.2.2.tar.gz
+-- Cleaning sources at /usr/local/vcpkg/buildtrees/sdl3-ttf/src/ease-3.2.2-37d6f7b748.clean. Use --editable to skip cleaning for the packages you specify.
+-- Extracting source /usr/local/vcpkg-downloads/libsdl-org-SDL_ttf-release-3.2.2.tar.gz
+-- Applying patch link-sdl3.diff
+-- Using source at /usr/local/vcpkg/buildtrees/sdl3-ttf/src/ease-3.2.2-37d6f7b748.clean
+-- Configuring x64-linux
+-- Building x64-linux-dbg
+-- Building x64-linux-rel
+-- Fixing pkgconfig file: /usr/local/vcpkg/packages/sdl3-ttf_x64-linux/lib/pkgconfig/sdl3-ttf.pc
+-- Fixing pkgconfig file: /usr/local/vcpkg/packages/sdl3-ttf_x64-linux/debug/lib/pkgconfig/sdl3-ttf.pc
+-- Installing: /usr/local/vcpkg/packages/sdl3-ttf_x64-linux/share/sdl3-ttf/usage
+-- Installing: /usr/local/vcpkg/packages/sdl3-ttf_x64-linux/share/sdl3-ttf/copyright
+-- Performing post-build validation
+Elapsed time to handle sdl3-ttf:x64-linux: 6 s
+Installed contents are licensed to you by owners. Microsoft is not responsible for, nor does it grant any licenses to, third-party packages.
+Some packages did not declare an SPDX license. Check the `copyright` file for each package for more information about their licensing.
+Packages installed in this vcpkg installation declare the following licenses:
+(AFL-2.1 OR GPL-2.0-or-later)
+(BSD-3-Clause OR GPL-2.0-only)
+(FTL OR GPL-2.0-or-later)
+0BSD
+Apache-2.0
+BSD-2-Clause
+BSD-3-Clause
+CC0-1.0
+GPL-3.0-or-later
+MIT
+Zlib
+bzip2-1.0.6
+libpng-2.0
+sdl3 provides CMake targets:
+
+  find_package(SDL3 CONFIG REQUIRED)
+  target_link_libraries(main PRIVATE SDL3::SDL3)
+
+sdl3-ttf provides CMake targets:
+
+  find_package(SDL3_ttf CONFIG REQUIRED)
+  target_link_libraries(main PRIVATE SDL3_ttf::SDL3_ttf)
+
+All requested installations completed successfully in: 8.8 min
