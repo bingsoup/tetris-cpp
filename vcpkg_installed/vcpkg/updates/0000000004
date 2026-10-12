@@ -1,8 +1,8 @@
-Package: zstd
-Version: 1.5.7
+Package: liblzma
+Version: 5.8.4
 Depends: vcpkg-cmake, vcpkg-cmake-config
 Architecture: x64-linux
 Multi-Arch: same
-Abi: 90f7ed42a6a123fd3969b2d975a192582e45150a5c3b59063226cc452f716dcd
-Description: Zstandard - Fast real-time compression algorithm
+Abi: d964d80e1a1d72214028ac6da025779395be7cf07cf23de873fb339e2a175a93
+Description: Compression library with an API similar to that of zlib.
 Status: install ok half-installed

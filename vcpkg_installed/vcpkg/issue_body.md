@@ -1,4 +1,4 @@
-Package: libxcrypt:x64-linux@4.5.2
+Package: libsystemd:x64-linux@260.2#1
 
 **Host Environment**
 
@@ -15,39 +15,55 @@ Package: libxcrypt:x64-linux@4.5.2
 **Failure logs**
 
 ```
-Downloading https://github.com/besser82/libxcrypt/archive/v4.5.2.tar.gz -> besser82-libxcrypt-v4.5.2.tar.gz
-Successfully downloaded besser82-libxcrypt-v4.5.2.tar.gz
--- Extracting source /usr/local/vcpkg-downloads/besser82-libxcrypt-v4.5.2.tar.gz
--- Using source at /usr/local/vcpkg/buildtrees/libxcrypt/src/v4.5.2-7ca15a2a8e.clean
--- Getting CMake variables for x64-linux
--- Loading CMake variables from /usr/local/vcpkg/buildtrees/libxcrypt/cmake-get-vars_C_CXX-x64-linux.cmake.log
-CMake Error at /workspaces/tetris-cpp/vcpkg_installed/x64-linux/share/vcpkg-make/vcpkg_make.cmake:108 (message):
-  libxcrypt currently requires the following programs from the system package
-  manager:
-
-      autoconf autoconf-archive automake libtoolize
-
-
-
-      On Debian and Ubuntu derivatives:
-          sudo apt install autoconf autoconf-archive automake libtool
-      On recent Red Hat and Fedora derivatives:
-          sudo dnf install autoconf autoconf-archive automake libtool
-      On Arch Linux and derivatives:
-          sudo pacman -S autoconf autoconf-archive automake libtool
-      On Alpine:
-          apk add autoconf autoconf-archive automake libtool
-      On macOS:
-          brew install autoconf autoconf-archive automake libtool
+Downloading https://github.com/mesonbuild/meson/archive/1.9.0.tar.gz -> meson-1.9.0.tar.gz
+Successfully downloaded meson-1.9.0.tar.gz
+-- Applying patch /workspaces/tetris-cpp/vcpkg_installed/x64-linux/share/vcpkg-tool-meson/meson-intl.patch
+-- Applying patch /workspaces/tetris-cpp/vcpkg_installed/x64-linux/share/vcpkg-tool-meson/adjust-python-dep.patch
+-- Applying patch /workspaces/tetris-cpp/vcpkg_installed/x64-linux/share/vcpkg-tool-meson/adjust-args.patch
+-- Applying patch /workspaces/tetris-cpp/vcpkg_installed/x64-linux/share/vcpkg-tool-meson/remove-pkgconfig-specialization.patch
+-- Applying patch /workspaces/tetris-cpp/vcpkg_installed/x64-linux/share/vcpkg-tool-meson/meson-56879d5.diff
+-- Found Python version '3.12.3 at /usr/bin/python3'
+-- Using meson: /usr/local/vcpkg-downloads/tools/meson-1.9.0-633807/meson.py
+Downloading https://github.com/systemd/systemd/archive/v260.2.tar.gz -> systemd-systemd-v260.2.tar.gz
+Successfully downloaded systemd-systemd-v260.2.tar.gz
+-- Extracting source /usr/local/vcpkg-downloads/systemd-systemd-v260.2.tar.gz
+-- Applying patch disable-warning-nonnull.patch
+-- Applying patch only-libsystemd.patch
+-- Applying patch pkgconfig.patch
+-- Applying patch fix-2604-build.patch
+-- Using source at /usr/local/vcpkg/buildtrees/libsystemd/src/v260.2-1a875e5b45.clean
+-- Setting up python virtual environment...
+CMake Error at scripts/cmake/vcpkg_execute_required_process.cmake:127 (message):
+    Command failed: /usr/bin/python3 -I -m venv --symlinks /usr/local/vcpkg/buildtrees/libsystemd/x64-linux-venv
+    Working Directory: /usr/local/vcpkg/buildtrees/libsystemd
+    Error code: 1
+    See logs for more information:
+      /usr/local/vcpkg/buildtrees/libsystemd/venv-setup-x64-linux-out.log
 
 Call Stack (most recent call first):
-  /workspaces/tetris-cpp/vcpkg_installed/x64-linux/share/vcpkg-make/vcpkg_make_configure.cmake:66 (vcpkg_run_autoreconf)
-  ports/libxcrypt/portfile.cmake:16 (vcpkg_make_configure)
+  /workspaces/tetris-cpp/vcpkg_installed/x64-linux/share/vcpkg-get-python-packages/x_vcpkg_get_python_packages.cmake:94 (vcpkg_execute_required_process)
+  ports/libsystemd/portfile.cmake:19 (x_vcpkg_get_python_packages)
   scripts/ports.cmake:209 (include)
 
 
 
 ```
+
+<details><summary>/usr/local/vcpkg/buildtrees/libsystemd/venv-setup-x64-linux-out.log</summary>
+
+```
+The virtual environment was not created successfully because ensurepip is not
+available.  On Debian/Ubuntu systems, you need to install the python3-venv
+package using the following command.
+
+    apt install python3.12-venv
+
+You may need to use sudo with that command.  After installing the python3-venv
+package, recreate your virtual environment.
+
+Failing command: /usr/local/vcpkg/buildtrees/libsystemd/x64-linux-venv/bin/python3
+```
+</details>
 
 **Additional context**
 

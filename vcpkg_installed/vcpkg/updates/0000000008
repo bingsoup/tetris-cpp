@@ -1,9 +1,9 @@
-Package: vcpkg-tool-meson
-Version: 1.9.0
-Port-Version: 10
-Depends: vcpkg-cmake-get-vars
+Package: gperf
+Version: 3.3
+Port-Version: 1
+Depends: vcpkg-make
 Architecture: x64-linux
 Multi-Arch: same
-Abi: 3fcc35dee46afee8a7822d230ee2a2b95f80bdcf745104b8218b3d95a1fbc98a
-Description: Meson build system
+Abi: 5a9d0fc1f5570b46df85d27497e3d8e22fe17764495924236f8473490747817b
+Description: GNU perfect hash function generator
 Status: install ok half-installed

@@ -1,0 +1,66 @@
+Package: vcpkg-cmake-config
+Version: 2026-07-21
+Architecture: x64-linux
+Multi-Arch: same
+Abi: 0ee42e39da7599e8cb10c5b061dd3ace75d6268e2abc1717f7f6f76380507296
+Status: install ok installed
+
+Package: vcpkg-cmake
+Version: 2025-08-07
+Architecture: x64-linux
+Multi-Arch: same
+Abi: 3610dd5d1ab14314f7ac023eae5ed636c66dae10363e1184803b09ee579756f5
+Status: install ok installed
+
+Package: zstd
+Version: 1.5.7
+Depends: vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-linux
+Multi-Arch: same
+Abi: 90f7ed42a6a123fd3969b2d975a192582e45150a5c3b59063226cc452f716dcd
+Description: Zstandard - Fast real-time compression algorithm
+Status: install ok installed
+
+Package: vcpkg-cmake-get-vars
+Version: 2025-05-29
+Depends: vcpkg-cmake
+Architecture: x64-linux
+Multi-Arch: same
+Abi: aa30ec0d2cf90d0a881d86a0acc70abf9d4fb01dedecc1ac62312fcc5b2239b8
+Status: install ok installed
+
+Package: vcpkg-tool-meson
+Version: 1.9.0
+Port-Version: 10
+Depends: vcpkg-cmake-get-vars
+Architecture: x64-linux
+Multi-Arch: same
+Abi: 3fcc35dee46afee8a7822d230ee2a2b95f80bdcf745104b8218b3d95a1fbc98a
+Description: Meson build system
+Status: install ok installed
+
+Package: vcpkg-get-python-packages
+Version: 2025-04-05
+Architecture: x64-linux
+Multi-Arch: same
+Abi: bf2887bd83b9a8a7297cd85cdaf89e73067a94909fc2cb2b219a696644d99925
+Status: install ok installed
+
+Package: lz4
+Version: 1.10.0
+Depends: vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-linux
+Multi-Arch: same
+Abi: 3060648de33d28af532349d3df5a4e2d50818f00d95d5094a90426ad656a9d84
+Description: Lossless compression algorithm, providing compression speed at 400 MB/s per core.
+Status: install ok installed
+
+Package: vcpkg-make
+Version: 2026-07-09
+Port-Version: 1
+Depends: vcpkg-cmake-get-vars
+Architecture: x64-linux
+Multi-Arch: same
+Abi: 8097f6ea4b95a69c1d59c6a620ecd4a18d1bad56f78d31a6f0208e8a75a34457
+Status: install ok installed
+
