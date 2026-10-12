@@ -1,8 +1,0 @@
-Package: libcap
-Version: 2.78
-Depends: vcpkg-cmake-get-vars, vcpkg-make
-Architecture: x64-linux
-Multi-Arch: same
-Abi: b2df293ee1b82cf41fd9472527de70510c0f054a30ede3f801236a93081f7ec5
-Description: A library for getting and setting POSIX.1e (formerly POSIX 6) draft 15 capabilities.
-Status: install ok half-installed

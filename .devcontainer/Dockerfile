@@ -4,6 +4,7 @@ RUN apt-get update && apt-get install -y \
     pkg-config \
     cmake \
     ninja-build \
+    python3-venv \
     autoconf \
     autoconf-archive \
     automake \

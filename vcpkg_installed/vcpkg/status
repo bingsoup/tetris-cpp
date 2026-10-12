@@ -64,3 +64,50 @@ Multi-Arch: same
 Abi: 8097f6ea4b95a69c1d59c6a620ecd4a18d1bad56f78d31a6f0208e8a75a34457
 Status: install ok installed
 
+Package: libxcrypt
+Version: 4.5.2
+Depends: vcpkg-make
+Architecture: x64-linux
+Multi-Arch: same
+Abi: 9dad75a30fa3b15cdba5100282a6e032e5a5a483d84720dde31f847a9cdcd0de
+Description: libxcrypt is a modern library for one-way hashing of passwords. On Linux-based systems, by default libxcrypt will be binary backward compatible with the libcrypt.so.1 shipped as part of the GNU C Library.
+Status: install ok installed
+
+Package: libmount
+Version: 2.41.3
+Port-Version: 1
+Depends: vcpkg-make
+Architecture: x64-linux
+Multi-Arch: same
+Abi: 41c644255af8ee33ce6c3c4db9ff50cd92316f16f01ddcaf984785e0825d9b0e
+Description: Block device identification library from util-linux
+Status: install ok installed
+
+Package: liblzma
+Version: 5.8.4
+Depends: vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-linux
+Multi-Arch: same
+Abi: d964d80e1a1d72214028ac6da025779395be7cf07cf23de873fb339e2a175a93
+Description: Compression library with an API similar to that of zlib.
+Status: install ok installed
+
+Package: libcap
+Version: 2.78
+Depends: vcpkg-cmake-get-vars, vcpkg-make
+Architecture: x64-linux
+Multi-Arch: same
+Abi: b2df293ee1b82cf41fd9472527de70510c0f054a30ede3f801236a93081f7ec5
+Description: A library for getting and setting POSIX.1e (formerly POSIX 6) draft 15 capabilities.
+Status: install ok installed
+
+Package: gperf
+Version: 3.3
+Port-Version: 1
+Depends: vcpkg-make
+Architecture: x64-linux
+Multi-Arch: same
+Abi: 5a9d0fc1f5570b46df85d27497e3d8e22fe17764495924236f8473490747817b
+Description: GNU perfect hash function generator
+Status: install ok installed
+

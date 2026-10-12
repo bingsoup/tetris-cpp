@@ -6,7 +6,7 @@ Package: libsystemd:x64-linux@260.2#1
 - Compiler: GNU 13.3.0
 - CMake Version: 4.4.3
 -    vcpkg-tool version: 2026-09-26-51bf87ca6e9bf3e622d84ff323bd202ab1ca0c0b
-    vcpkg-scripts version: 27504013 2026-10-07 (2 days ago)
+    vcpkg-scripts version: 4056a718 2026-10-09 (3 days ago)
 
 **To Reproduce**
 

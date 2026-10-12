@@ -1,9 +1,0 @@
-Package: gperf
-Version: 3.3
-Port-Version: 1
-Depends: vcpkg-make
-Architecture: x64-linux
-Multi-Arch: same
-Abi: 5a9d0fc1f5570b46df85d27497e3d8e22fe17764495924236f8473490747817b
-Description: GNU perfect hash function generator
-Status: install ok installed
